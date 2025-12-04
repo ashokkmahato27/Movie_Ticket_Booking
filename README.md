@@ -83,6 +83,7 @@ cd movie-ticket-system
 
 # Sample Output (Ticket)
 <img width="1110" height="778" alt="image" src="https://github.com/user-attachments/assets/de69eabd-58f3-4f8c-9399-3d0fdc359bbb" />
+
 # Concepts Used
 
 Classes & Objects
