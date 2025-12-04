@@ -29,4 +29,70 @@ Perfect for learning OOP concepts, file handling, and building interactive CLI a
 
 ---
 
-### Sample Seat Map Display
+# Project Structure (OOP Design)
+1. Class: Seat
+
+Represents a single seat in the theater.
+
+row, col
+
+is_booked
+
+get_name() → Converts seat to human-readable format (A1, B3)
+
+2. Class: Theater
+
+Manages all seats and pricing.
+
+A 2D list of Seat instances
+
+Row-wise pricing
+
+show_seats() → displays seat layout
+
+book_seat() → marks seat as booked
+
+3. Class: Booking
+
+Stores booking information.
+
+Generates ticket ID
+
+Calculates discount (if student)
+
+print_ticket() → prints formatted ticket
+
+to_string() → used for file saving
+
+4. Class: TicketSystem
+
+Controls the whole system.
+
+Displays menu
+
+Manages bookings
+
+Handles user input
+
+Saves each booking to bookings.txt
+
+# How to Run
+Step 1: Clone the Repository
+git clone https://github.com/your-username/movie-ticket-system.git
+cd movie-ticket-system
+
+# Sample Output (Ticket)
+<img width="1110" height="778" alt="image" src="https://github.com/user-attachments/assets/de69eabd-58f3-4f8c-9399-3d0fdc359bbb" />
+Concepts Used
+
+Classes & Objects
+
+Inheritance (optional expansion)
+
+File Handling
+
+List & Loop Operations
+
+Console UI
+
+Validation & Error Handling
