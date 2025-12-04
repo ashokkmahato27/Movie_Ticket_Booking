@@ -30,7 +30,7 @@ Perfect for learning OOP concepts, file handling, and building interactive CLI a
 ---
 
 # Project Structure (OOP Design)
-1. Class: Seat
+## 1. Class: Seat
 
 Represents a single seat in the theater.
 
@@ -40,7 +40,7 @@ is_booked
 
 get_name() → Converts seat to human-readable format (A1, B3)
 
-2. Class: Theater
+## 2. Class: Theater
 
 Manages all seats and pricing.
 
@@ -52,7 +52,7 @@ show_seats() → displays seat layout
 
 book_seat() → marks seat as booked
 
-3. Class: Booking
+## 3. Class: Booking
 
 Stores booking information.
 
@@ -64,7 +64,7 @@ print_ticket() → prints formatted ticket
 
 to_string() → used for file saving
 
-4. Class: TicketSystem
+## 4. Class: TicketSystem
 
 Controls the whole system.
 
@@ -83,7 +83,7 @@ cd movie-ticket-system
 
 # Sample Output (Ticket)
 <img width="1110" height="778" alt="image" src="https://github.com/user-attachments/assets/de69eabd-58f3-4f8c-9399-3d0fdc359bbb" />
-Concepts Used
+# Concepts Used
 
 Classes & Objects
 
